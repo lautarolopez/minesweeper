@@ -1,4 +1,4 @@
-# Minesweeper API
+# Minesweeper API 💣🚩
 
 Esta es una API desarrollada para el desafío técnico de TAP, utlizando NodeJs + ExpressJs con TypeScript y PostgreSQL.
 
@@ -67,11 +67,11 @@ Esta es una API desarrollada para el desafío técnico de TAP, utlizando NodeJs 
 
 ## Variables de entorno
 
-`PORT`: Puerto de la aplicación, si se elige otro distinto al puerto 3001 hay que actualizar .Dockerfile y docker-compose.yml si se va a levantar con docker-compose.
-`DB_USER`: Usuario de la base de datos, actualizar también en docker-compose si se va a levantar con docker-compose.
-`DB_PASSWORD`: Contraseña de la base de datos, actualizar también en docker-compose si se va a levantar con docker-compose.
-`DB_HOSTNAME`:  `localhost` para la aplicación en local, `postgres` para la aplicación con docker-compose. Actualizar también en docker-compose.yml si se va a levantar con docker-compose.
-`DB_NAME`: Nombre de la base de datos, actualizar también en docker-compose si se va a levantar con docker-compose
+- `PORT`: Puerto de la aplicación, si se elige otro distinto al puerto 3001 hay que actualizar .Dockerfile y docker-compose.yml si se va a levantar con docker-compose.
+- `DB_USER`: Usuario de la base de datos, actualizar también en docker-compose si se va a levantar con docker-compose.
+- `DB_PASSWORD`: Contraseña de la base de datos, actualizar también en docker-compose si se va a levantar con docker-compose.
+- `DB_HOSTNAME`:  `localhost` para la aplicación en local, `postgres` para la aplicación con docker-compose. Actualizar también en docker-compose.yml si se va a levantar con docker-compose.
+- `DB_NAME`: Nombre de la base de datos, actualizar también en docker-compose si se va a levantar con docker-compose
 
 
 ## Pasos para levantar el proyecto local
