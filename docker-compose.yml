@@ -1,0 +1,26 @@
+version: "3"
+services:
+  minesweeper-app:
+    env_file: .env
+    container_name: minesweeper
+    build:
+      context: .
+      dockerfile: .Dockerfile
+    depends_on:
+      - postgres
+    ports:
+      - "3001:3001"
+  postgres:
+    container_name: db
+    image: postgres:14-alpine
+    ports:
+      - "5432:5432"
+    volumes:
+      - /srv/docker/postgresql:/var/lib/postgresql
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: newPassword
+      POSTGRES_DB: minesweeperdb
+volumes:
+    db-data:

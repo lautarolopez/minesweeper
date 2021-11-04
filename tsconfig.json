@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",                            
+    "rootDir": "./src",                                 
+    "baseUrl": "./",
+    "outDir": "./dist",                          
+    "esModuleInterop": true,                            
+    "strict": true,                               
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "watch": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  }
+}
